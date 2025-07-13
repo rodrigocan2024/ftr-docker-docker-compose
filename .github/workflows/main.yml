@@ -1,11 +1,9 @@
-name: widget-server pipe
+name: widget-server pipe ECR
 
 on:
   push:
     branches:
       - 'main'
-env:
-  CONTAINER_REPOSITORY: 'rodrigocan2024/widget-server'
 
 jobs:
   Build:
